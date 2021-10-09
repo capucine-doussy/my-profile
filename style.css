@@ -1,0 +1,91 @@
+body {
+
+	background-color: #FEFBF3;
+	color: #2D2424;
+	font-family: 'Inconsolata', monospace;
+	font-size: 18px;
+	text-align: justify;
+
+}
+
+h1 {
+	color: #39311D;
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 35px;
+	text-align: center;
+	letter-spacing: 5px;
+}
+
+
+h2 {
+	color: #A0937D;
+	font-family: 'Inconsolata', monospace;
+	font-weight: bold;
+
+}
+
+a {
+	text-decoration: none;
+	color: #A0937D;
+
+}
+
+a:hover {
+	color: #C84B31;
+}
+
+/* Custom design with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width 500px) {
+	.container {
+		width: 600px;
+	}
+}
+
+
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+	width: 200px;
+}
+
+.btn-blue {
+	background-color: #A0937D;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+
+.btn-blue:hover {
+	background-color: #C84B31;
+	color: white;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i:hover {
+	font-size: 50px;
+	color: rgb(230, 230, 230);
+}
+
+#introduction p { 
+margin-bottom: 60px;
+}
